@@ -14,5 +14,6 @@ no_index:
     - inc
     - t
 requires:
+  LWP::UserAgent: 2
   URI::Escape: 0
-version: 0.20
+version: 0.31
