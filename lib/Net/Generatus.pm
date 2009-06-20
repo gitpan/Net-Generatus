@@ -7,7 +7,7 @@ use URI::Escape;
 use LWP::UserAgent;
 #use Carp;
 
-our $VERSION = '0.31';
+our $VERSION = '0.40';
 #http://search.twitter.com/search.json?q=<query>
 
 sub Status {
@@ -57,7 +57,7 @@ sub Status {
 
 =head1 NAME
 
-Net::Generatus
+Net::Generatus - Get random status message from generatus.com
 
 =head1 SYNOPSYS
 
